@@ -2,103 +2,79 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio - Ahlam El Bouhati</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atelier 1</title>
+
     <style>
-        body {
-    font-family: Arial;
-    margin: 0;
-    padding: 0;
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
-    header {
-        background-color: #333;
-        color: white;
-        text-align: center;
-        padding: 20px;
-    }
-    nav {
-        background-color: #555;
-        text-align: center;
-        padding: 10px;
-    }
-    
-    nav a {
-        color: white;
-        margin: 10px;
-        text-decoration: none;
-        font-weight: bold;
-    }
-    section {
-        padding: 20px;
-    }
-    .project {
-        background-color: #f4f4f4;
-        margin: 10px 0;
-        padding: 15px;
-        border-radius: 5px;
-    }
-    form {
-        display: flex;
-        flex-direction: column;
-        width: 300px;
-    }
-    
-    input, textarea {
-        margin: 5px 0;
-        padding: 10px;
-    }
-    
-    button {
-        background-color: #333;
-        color: white;
-        padding: 10px;
-        border: none;
-    }
-    .success {
-        color: green;
-        margin-top: 10px;
-    }
-    footer {
-        background-color: #333;
-        color: white;
-        text-align: center;
-        padding: 10px;
-    }
+
+        .card{
+            background: white;
+            width: 350px;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .card h2{
+            color: #da1fc1;
+            margin-bottom: 10px;
+        }
+
+        .card p{
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .btn{
+            display: block;
+            width: 100%;
+            text-decoration: none;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 8px;
+            color: white;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn-code{
+            background-color: #da1fc1;
+        }
+
+        .btn-code:hover{
+            background-color: #b915a3;
+        }
+
+        .btn-rapport{
+            background-color: #333;
+        }
+
+        .btn-rapport:hover{
+            background-color: #555;
+        }
     </style>
-</head> 
+</head>
+
 <body>
 
-    <header>
-        <h1>Ahlam El Bouhati</h1>
-        <p>Développeuse Web</p>
-    </header>
-    <nav>
-        <a href="#about">À propos</a>
-        <a href="#projects">Projets</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <section id="about">
-        <h2>À propos</h2>
-        <p>
-            Je suis Ahlam El Bouhati, développeuse web passionnée par la création des sites modernes.
-        </p>
-    </section>
-    <section id="projects">
-        <h2>Mes Projets</h2>
+<div class="card">
+    <h2>Atelier 1</h2>
+    <p>Choisissez une option :</p>
 
-        <div class="project">
-            <h3>Atelier 1</h3>  
-        </div>
-
-        <div class="project">
-            <h3>Atelier 2</h3>
-        </div>
-        <div class="project">
-            <h3>Atelier 2</h3>
-        </div>
-    </section>
-    <footer>
-        <p>2026 Ahlam El Bouhati</p>
-    </footer>
+    <?php 
+        echo '<a class="btn btn-code" href="exercice1.php">Code Source</a>';
+        echo '<a class="btn btn-rapport" href="rapport ex1.pdf" target="_blank">Rapport</a>';
+    ?>
+</div>
 
 </body>
 </html>
