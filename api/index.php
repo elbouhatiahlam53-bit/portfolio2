@@ -65,7 +65,10 @@
 </head>
 
 <body>
-
+    <header>
+        <h1>AHLAM EL BOUHATI</h1>
+    </header>
+<section>
 <div class="card">
     <h2>Atelier 1</h2>
     <p>Choisissez une option :</p>
@@ -73,8 +76,21 @@
     <?php 
         echo '<a class="btn btn-code" href="exercice1.php">Code Source</a>';
         echo '<a class="btn btn-rapport" href="rapport ex1.pdf" target="_blank">Rapport</a>';
+        echo '<a class="btn btn-code" href="exercice2.php">Code Source</a>';
+        echo '<a class="btn btn-rapport" href="rapport ex2.pdf" target="_blank">Rapport</a>';
     ?>
 </div>
+<div class="card">
+    <h2>Atelier 2</h2>
+    <p>Choisissez une option :</p>
 
+    <?php 
+        echo '<a class="btn btn-code" href="exercice3.php">Code Source</a>';
+        echo '<a class="btn btn-rapport" href="rapport ex3.pdf" target="_blank">Rapport</a>';
+        echo '<a class="btn btn-code" href="exercice4.php">Code Source</a>';
+        echo '<a class="btn btn-rapport" href="rapport ex4.pdf" target="_blank">Rapport</a>';
+    ?>
+</div>
+</section>
 </body>
 </html>
