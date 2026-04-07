@@ -8,20 +8,41 @@
     <style>
         body{
             font-family: Arial, sans-serif;
-            background-color: #f4f6f9;
+            background: linear-gradient(135deg, #f4f6f9, #e0e7ff);
+            margin: 0;
+        }
+
+        header{
+            background-color: #da1fc1;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 22px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        section{
             display: flex;
             justify-content: center;
-            align-items: center;
-            height: 100vh;
+            gap: 30px;
+            padding: 50px 20px;
+            flex-wrap: wrap;
         }
 
         .card{
             background: white;
-            width: 350px;
+            width: 320px;
             padding: 25px;
             border-radius: 15px;
             box-shadow: 0 10px 25px rgba(0,0,0,0.1);
             text-align: center;
+            transition: 0.3s;
+        }
+
+        .card:hover{
+            transform: translateY(-10px);
+            box-shadow: 0 20px 35px rgba(0,0,0,0.15);
         }
 
         .card h2{
@@ -30,7 +51,7 @@
         }
 
         .card p{
-            color: #555;
+            color: #666;
             margin-bottom: 20px;
         }
 
@@ -47,28 +68,32 @@
         }
 
         .btn-code{
-            background-color: #da1fc1;
+            background: linear-gradient(45deg, #da1fc1, #ff4dd2);
         }
 
         .btn-code:hover{
-            background-color: #b915a3;
+            transform: scale(1.05);
+            opacity: 0.9;
         }
 
         .btn-rapport{
-            background-color: #333;
+            background: linear-gradient(45deg, #333, #666);
         }
 
         .btn-rapport:hover{
-            background-color: #555;
+            transform: scale(1.05);
+            opacity: 0.9;
         }
     </style>
 </head>
 
 <body>
     <header>
-        <h1>AHLAM EL BOUHATI</h1>
+        AHLAM EL BOUHATI
     </header>
+
 <section>
+
 <div class="card">
     <h2>Atelier 1</h2>
     <p>Choisissez une option :</p>
@@ -80,6 +105,7 @@
         echo '<a class="btn btn-rapport" href="rapport ex2.pdf" target="_blank">Rapport</a>';
     ?>
 </div>
+
 <div class="card">
     <h2>Atelier 2</h2>
     <p>Choisissez une option :</p>
@@ -91,6 +117,7 @@
         echo '<a class="btn btn-rapport" href="rapport ex4.pdf" target="_blank">Rapport</a>';
     ?>
 </div>
+
 </section>
 </body>
 </html>
