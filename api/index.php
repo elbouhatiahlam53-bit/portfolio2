@@ -135,8 +135,6 @@
     <?php 
         echo '<a class="btn btn-code" href="exercice3.php">Exercice 3</a>';
         echo '<a class="btn btn-rapport" href="rapport ex3.pdf" target="_blank">Rapport</a>';
-        echo '<a class="btn btn-code" href="exercice4.php">Exercice 4</a>';
-        echo '<a class="btn btn-rapport" href="rapport ex4.pdf" target="_blank">Rapport</a>';
     ?>
 </div>
 <div class="card">
@@ -146,8 +144,6 @@
     <?php 
         echo '<a class="btn btn-code" href="exercice3.php">Exercice 3</a>';
         echo '<a class="btn btn-rapport" href="rapport ex3.pdf" target="_blank">Rapport</a>';
-        echo '<a class="btn btn-code" href="exercice4.php">Exercice 4</a>';
-        echo '<a class="btn btn-rapport" href="rapport ex4.pdf" target="_blank">Rapport</a>';
     ?>
 </div>
 <div class="card">
@@ -157,9 +153,7 @@
     <?php 
         echo '<a class="btn btn-code" href="exercice3.php">Exercice 3</a>';
         echo '<a class="btn btn-rapport" href="rapport ex3.pdf" target="_blank">Rapport</a>';
-        echo '<a class="btn btn-code" href="exercice4.php">Exercice 4</a>';
-        echo '<a class="btn btn-rapport" href="rapport ex4.pdf" target="_blank">Rapport</a>';
-    ?>
+       ?>
 </div>
 <div class="card">
     <h2>Atelier 7</h2>
