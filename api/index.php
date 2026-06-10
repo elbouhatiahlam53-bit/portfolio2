@@ -122,10 +122,8 @@
     <p>Choisissez une option :</p>
 
     <?php 
-        echo '<a class="btn btn-code" href="#">Exercice </a>';
-        echo '<a class="btn btn-rapport" href="#" target="_blank">Rapport</a>';
-        echo '<a class="btn btn-code" href="#">Exercice </a>';
-        echo '<a class="btn btn-rapport" href="#" target="_blank">Rapport</a>';
+        echo '<a class="btn btn-code" href="https://github.com/elbouhatiahlam53-bit/atelier-3.git">Exercice </a>';
+       
     ?>
 </div>
 <div class="card">
@@ -134,7 +132,6 @@
 
     <?php 
         echo '<a class="btn btn-code" href="#">Exercice</a>';
-        echo '<a class="btn btn-rapport" href="#" target="_blank">Rapport</a>';
     ?>
 </div>
 <div class="card">
@@ -143,7 +140,6 @@
 
     <?php 
         echo '<a class="btn btn-code" href="#p">Exercice </a>';
-        echo '<a class="btn btn-rapport" href="#" target="_blank">Rapport</a>';
     ?>
 </div>
 <div class="card">
@@ -152,7 +148,7 @@
 
     <?php 
         echo '<a class="btn btn-code" href="#">Exercice </a>';
-        echo '<a class="btn btn-rapport" href="r#" target="_blank">Rapport</a>';
+    
        ?>
 </div>
 <div class="card">
@@ -161,8 +157,71 @@
 
     <?php 
         echo '<a class="btn btn-code" href="https://github.com/elbouhatiahlam53-bit/atelier7.git">Exercice </a>';
-        echo '<a class="btn btn-rapport" href="#" target="_blank">Rapport</a>';
         
+        
+    ?>
+</div>
+<div class="card">
+    <h2>Atelier 8</h2>
+    <p>Choisissez une option :</p>
+
+    <?php 
+        echo '<a class="btn btn-code" href="#">Exercice </a>';
+       
+    ?>
+</div>
+<div class="card">
+    <h2>Atelier 9</h2>
+    <p>Choisissez une option :</p>
+
+    <?php 
+        echo '<a class="btn btn-code" href="#">Exercice </a>';
+       
+    ?>
+</div>
+<div class="card">
+    <h2>Atelier 10</h2>
+    <p>Choisissez une option :</p>
+
+    <?php 
+        echo '<a class="btn btn-code" href="#">Exercice </a>';
+       
+    ?>
+</div>
+<div class="card">
+    <h2>Atelier 11</h2>
+    <p>Choisissez une option :</p>
+
+    <?php 
+        echo '<a class="btn btn-code" href="#">Exercice </a>';
+       
+    ?>
+</div>
+<div class="card">
+    <h2>Atelier 12</h2>
+    <p>Choisissez une option :</p>
+
+    <?php 
+        echo '<a class="btn btn-code" href="#">Exercice </a>';
+       
+    ?>
+</div>
+<div class="card">
+    <h2>Atelier 13</h2>
+    <p>Choisissez une option :</p>
+
+    <?php 
+        echo '<a class="btn btn-code" href="#">Exercice </a>';
+       
+    ?>
+</div>
+<div class="card">
+    <h2>Atelier 14</h2>
+    <p>Choisissez une option :</p>
+
+    <?php 
+        echo '<a class="btn btn-code" href="#">Exercice </a>';
+       
     ?>
 </div>
 
