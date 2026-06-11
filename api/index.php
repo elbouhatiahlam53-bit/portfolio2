@@ -119,72 +119,72 @@
 
 <div class="card">
     <h2>Atelier 3</h2>
-    <p>Choisissez une option :</p>
+    <p>Upload de fichiers en PHP :</p>
 
     <?php 
-        echo '<a class="btn btn-code" href="https://github.com/elbouhatiahlam53-bit/atelier-3.git">Exercice </a>';
+        echo '<a class="btn btn-code" href="https://github.com/elbouhatiahlam53-bit/atelier-3.git">git hub </a>';
        
     ?>
 </div>
 <div class="card">
     <h2>Atelier 4</h2>
-    <p>Choisissez une option :</p>
+    <p> Gestion des sessions, cookies :</p>
 
     <?php 
-        echo '<a class="btn btn-code" href="#">Exercice</a>';
+        echo '<a class="btn btn-code" href="https://github.com/elbouhatiahlam53-bit/atelier4.git">git hub </a>';
     ?>
 </div>
 <div class="card">
     <h2>Atelier 5</h2>
-    <p>Choisissez une option :</p>
+    <p> Gestion des sessions, cookies :</p>
 
     <?php 
-        echo '<a class="btn btn-code" href="#p">Exercice </a>';
+        echo '<a class="btn btn-code" href="https://github.com/elbouhatiahlam53-bit/atelier5.git">git hub </a>';
     ?>
 </div>
 <div class="card">
     <h2>Atelier 6</h2>
-    <p>Choisissez une option :</p>
+    <p>POO en PHP avec Sessions :</p>
 
     <?php 
-        echo '<a class="btn btn-code" href="#">Exercice </a>';
+        echo '<a class="btn btn-code" href="">git hub </a>';
     
        ?>
 </div>
 <div class="card">
     <h2>Atelier 7</h2>
-    <p>Choisissez une option :</p>
+    <p>POO en PHP avec Sessions :</p>
 
     <?php 
-        echo '<a class="btn btn-code" href="https://github.com/elbouhatiahlam53-bit/atelier7.git">Exercice </a>';
+        echo '<a class="btn btn-code" href="https://github.com/elbouhatiahlam53-bit/atelier7.git">git hub </a>';
         
         
     ?>
 </div>
 <div class="card">
     <h2>Atelier 8</h2>
-    <p>Choisissez une option :</p>
+    <p>Application E-Fruits controle continu:</p>
 
     <?php 
-        echo '<a class="btn btn-code" href="#">Exercice </a>';
-       
+        echo '<a class="btn btn-code" href="https://github.com/elbouhatiahlam53-bit/atelier8.git">git hub </a>';
+       echo '<a class="btn btn-code" href="https://atelier8-sigma.vercel.app/">lien versel </a>';
     ?>
 </div>
 <div class="card">
     <h2>Atelier 9</h2>
-    <p>Choisissez une option :</p>
+    <p>Mysql PDO : application gestion des etudiants </p>
 
     <?php 
-        echo '<a class="btn btn-code" href="#">Exercice </a>';
+        echo '<a class="btn btn-code" href="https://github.com/elbouhatiahlam53-bit/atelier9.git">git hub </a>';
        
     ?>
 </div>
 <div class="card">
     <h2>Atelier 10</h2>
-    <p>Choisissez une option :</p>
+    <p>La Pagination en PHP :</p>
 
     <?php 
-        echo '<a class="btn btn-code" href="#">Exercice </a>';
+        echo '<a class="btn btn-code" href="https://github.com/elbouhatiahlam53-bit/atelier9.git">git hub </a>';
        
     ?>
 </div>
@@ -193,34 +193,43 @@
     <p>Choisissez une option :</p>
 
     <?php 
-        echo '<a class="btn btn-code" href="#">Exercice </a>';
+        echo '<a class="btn btn-code" href="https://github.com/elbouhatiahlam53-bit/atelier9.git">git hub</a>';
        
     ?>
 </div>
 <div class="card">
     <h2>Atelier 12</h2>
-    <p>Choisissez une option :</p>
+    <p>Ajax Reponse Json :</p>
 
     <?php 
-        echo '<a class="btn btn-code" href="#">Exercice </a>';
+        echo '<a class="btn btn-code" href="https://github.com/elbouhatiahlam53-bit/atelier9.git">git hub</a>';
        
     ?>
 </div>
 <div class="card">
     <h2>Atelier 13</h2>
-    <p>Choisissez une option :</p>
+    <p> services web :</p>
 
     <?php 
-        echo '<a class="btn btn-code" href="#">Exercice </a>';
+        echo '<a class="btn btn-code" href="https://github.com/elbouhatiahlam53-bit/atelier9.git">git hub</a>';
        
     ?>
 </div>
 <div class="card">
     <h2>Atelier 14</h2>
-    <p>Choisissez une option :</p>
+    <p>Burger_Code :</p>
 
     <?php 
-        echo '<a class="btn btn-code" href="#">Exercice </a>';
+        echo '<a class="btn btn-code" href="https://github.com/elbouhatiahlam53-bit/atelier14.git">git hub</a>';
+       
+    ?>
+</div>
+<div class="card">
+    <h2>Atelier 15</h2>
+    <p>Architecture MVC :</p>
+
+    <?php 
+        echo '<a class="btn btn-code" href="https://github.com/elbouhatiahlam53-bit/atelier15.git">git hub</a>';
        
     ?>
 </div>
